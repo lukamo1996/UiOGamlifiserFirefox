@@ -1,0 +1,34 @@
+{
+    "name": "UiO Gamlifiser",
+    "description": "For de som likte det gamle UiO designet. Woohoo. Lagd av Luka Momcilovic",
+    "version": "3.6",
+    "manifest_version": 2,
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "luka_momcilovic2@hotmail.com"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.uio.no/*"],
+        "css": ["venter.css"],
+        "js": ["venterFjerner.js"],
+        "run_at": "document_start"
+      }
+    ],    
+    "browser_action": {
+      "default_title":"Dale a tu cuerpo alegría, Macarena...",
+      "default_popup": "popup.html"
+    },
+    "background":{
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions":["webRequestBlocking", "tabs", "webNavigation", "webRequest", "*://*.uio.no/*", "storage"],
+    "icons": { 
+      "128": "ikonON.png" 
+    },
+    "web_accessible_resources": [
+      "style.css"
+    ]
+}
