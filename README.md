@@ -1,7 +1,7 @@
 # UiOGamlifiser
 En FireFox-addon som konverterer det nye designet på nettsiden til Universitetet i Oslo tilbake til det gamle designet.
 
-Installation:
+### Installation:
 
 Preview 1                  |
 :-------------------------:|
