@@ -11,4 +11,5 @@ Step 2                     |
 :-------------------------:|
 ![](https://i.imgur.com/287XgAh.png)             |
 
--> Then choose the .xpi-package
+### Step 3:
+- Then choose the .xpi-package
