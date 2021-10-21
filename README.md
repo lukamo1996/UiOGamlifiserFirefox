@@ -3,11 +3,11 @@ En FireFox-addon som konverterer det nye designet på nettsiden til Universitete
 
 ### Installation:
 
-Preview 1                  |
+Step 1                     |
 :-------------------------:|
 ![](https://image.prntscr.com/image/emTz4_kcSOypZ3geC3aSJA.png)             |
 
-Preview 1                  |
+Step 2                     |
 :-------------------------:|
 ![](https://i.imgur.com/287XgAh.png)             |
 
